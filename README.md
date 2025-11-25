@@ -10,36 +10,6 @@
       <title>Epic Gamers Clan</title>
       
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-     
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-        }
-        .hero-section {
-          background-image: url('https://via.placeholder.com/1600x600?text=Epic+Gamers+Clan');
-          background-size: cover;
-          color: white;
-          padding: 120px 0;
-          text-align: center;
-        }
-        .card img {
-          max-height: 200px;
-          object-fit: cover;
-        }
-        footer {
-          background-color: #333;
-          color: white;
-          padding: 30px 0;
-        }
-        footer a {
-          color: #f1f1f1;
-          text-decoration: none;
-        }
-        footer a:hover {
-          color: #ff6f61;
-        }
-        
-      </style>
     </head>
     <body>
     
@@ -66,7 +36,7 @@
         </div>
       </nav>
     
-      <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+     
       <section class="hero-section">
         <div class="container">
           <h1>Welcome to Epic Gamers Clan!</h1>
@@ -74,8 +44,7 @@
         </div>
       </section>
       <div class="text-center">
-        <img src="Wizard.jpg" alt="Wizard" class="center">
-        <p>Epic Gamers</p>
+        <img src="Wizard.jpg" alt="Wizard" class="ms-auto">
       </div>
       
      
@@ -83,11 +52,11 @@
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
-              <img src="People.jpg" class="card-img-top" alt="About Us">
+              <img src="People.jpg" class="card-img-top" alt="About Us" height="175px">
               <div class="card-body">
                 <h5 class="card-title">About Us</h5>
                 <p class="card-text">Epic Gamers Clan is a group of competitive gamers who love to win and have fun. Join us for exciting challenges!</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#About us" class="btn btn-primary">Learn More</a>
               </div>
             </div>
           </div>
